@@ -11,7 +11,11 @@ let axiosConfig = {
 
 const sendDataToBackEnd = (data) => {
     console.log('sendDataToBackEnd')
-    axios.post(`${BASE_URL}`, data, axiosConfig).then(resp => console.log(resp, ' - resp sendDataToBackEnd'))
+    return axios.post(`${BASE_URL}`, data, axiosConfig)
+        .then(resp => {
+            return resp;
+        })
+        .catch(err => { throw err })
 }
 
 

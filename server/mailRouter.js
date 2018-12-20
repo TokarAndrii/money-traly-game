@@ -1,8 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const { getEmailCredentialsFromFront, sendAnswerToFront } = require('./mailController')
+const { getEmailCredentialsFromFront, sendAnswerToFrontOnGet } = require('./mailController')
 
-router.post('/', getEmailCredentialsFromFront, sendAnswerToFront)
-router.get('/', () => console.log('get'))
+router.post('/', getEmailCredentialsFromFront);
+
+router.get('/', sendAnswerToFrontOnGet);
 
 module.exports = router;

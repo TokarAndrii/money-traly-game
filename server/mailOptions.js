@@ -1,5 +1,5 @@
 const mailOptions = {
-    from: "tokar.andrii@gmail.com",
+    from: "tokar.emailsender@gmail.com",
     to: "tokar.andrii@ecomm.kiev.ua",
     subject: "",
     text: "",
