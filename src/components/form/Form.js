@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { sendDataToBackEnd } from './services/mailApiService';
-import ErrorMessage from './ErrorMessage'
-import SuccessMessage from './SuccessMessage'
+import { sendDataToBackEnd } from '../../services/mailApiService';
+import ErrorMessage from '../../ErrorMessage'
+import SuccessMessage from '../../SuccessMessage'
 import styles from './Form.module.css'
 
 
@@ -50,15 +50,14 @@ export default class Form extends Component {
     }
 
     render() {
-        const { header } = this.props;
+        const { formTitle } = this.props;
         const { user, email, subject, message, error, success } = this.state;
         const { isError, data } = error;
         const { isSuccess, } = success;
         return (
             <>
-
                 <form className={styles.form}>
-                    <h2>{header}</h2>
+                    <h3>{formTitle}</h3>
                     <label className={styles.label}>
                         <b className={styles.title}>
                             <img src="user.svg" alt="name-icon"></img>
@@ -78,8 +77,9 @@ export default class Form extends Component {
                         </b><textarea cols="100" rows="10" className={styles.textArea} name="message" value={message} onChange={this.handleChangeInput}
                             placeholder="input your comments here"></textarea></label>
                     <button className={styles.sendBtn} onClick={this.handleSubmitForm} type="button"><b>Send</b></button>
-
                 </form>
+
+
                 {isError && (<ErrorMessage className={styles.error}
                     closeBtnClassName={styles.closebtn} message={data.message}
                     onClose={this.handleCloseAlerts} />)}
@@ -87,6 +87,7 @@ export default class Form extends Component {
                 {isSuccess && (<SuccessMessage className={styles.success}
                     closeBtnClassName={styles.closebtn} message={data.message}
                     onClose={this.handleCloseAlerts} />)}
+
 
             </>
         )

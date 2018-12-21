@@ -6,68 +6,13 @@
   max-width: 1920px;
   height: auto;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
-.title{
-  height: 13vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: 0;
-}
-
-.link{
-  list-style-type: none;
-  display: inline-block;
-  margin-left: 16px;
-}
-
-.linkText:hover{
-  background-color: #fff;
-  color: #282c34;
-
-}
-
-.linkText{
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 8px 32px;
-
-}
-
-
-.Appheader {
-  background-color: #282c34;
-  color: white;
-  min-height: 10vh;
-  width: 98vw;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  margin: 0;
-}
-
-
-.headerList{
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  width: 85vw;
-  height: 13vh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-end;
-}
 
 .main{
   width: 98vw;
-  height: 1650px;
+  height: 1750px;
   padding: 32px 0px;
   display: flex;
   flex-direction: column;
@@ -99,90 +44,4 @@
   display: block;
   border-top: 1px solid white;
   border-bottom: 1px solid #282c34;
-}
-
-.socialLinksHolder{
-  padding: 8px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.footerIcon{
-  font-size: 50px;
-  margin-top: 16px;
-
-}
-
-.footerIcon:hover{
-  background-color: lightgray;
-}
-
-.socialLinksHolderTitle{
-  border-bottom: 1px solid white;
-  display: block;
-  margin-bottom: 8px;
-}
-
-.menuFooterHolder{
-  padding: 8px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  margin-left: 84px;
-}
-
-.contactsFooterHolder{
-  padding: 8px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-left: 84px;
-}
-
-.linksFooterHolder{
-  padding: 8px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin-left: 84px;
-}
-
-.footerList{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.linkFooter{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: block;
-}
-
-.linkTextFooter{
-  color: white;
-  text-decoration: none;
-  display: block;
-  margin-top: 1px;
-  padding: 3px;
-}
-
-.linkTextFooter:hover{
-  color: #282c34;
-  background-color: #fff;
-}
-
-.footerContactsInfo{
-  color: white;
-  margin-top: 8px;
 }

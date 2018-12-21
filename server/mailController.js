@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 
 const mailOptions = {
     from: "tokar.emailsender@gmail.com",
-    to: "tokar.andrii@ecomm.kiev.ua, alenatokar87@gmail.com",
+    to: "tokar.andrii@ecomm.kiev.ua",
     subject: "",
     html: "",
 };
