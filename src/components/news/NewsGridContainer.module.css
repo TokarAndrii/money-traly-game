@@ -8,5 +8,25 @@
   }
 
   .newsGridContainer{
-    height: 800px;
+    height: auto;
   }
+
+  .newsCardHolderList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsCardHolderItem{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin: 16px;
+    margin-bottom: 16px;
+  }
+

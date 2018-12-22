@@ -1,0 +1,7 @@
+.newscardHolder{
+    text-decoration: none;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding: 32px;
+    display: inline-block;
+}

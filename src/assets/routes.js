@@ -9,5 +9,6 @@ export default Object.freeze({
     SERVICES: '/services',
     Links: '/links',
     FORM: '/form',
+    NEWS_ITEM: '/news/:id',
     NEWS: '/news',
 });

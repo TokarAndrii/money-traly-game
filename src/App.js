@@ -3,7 +3,8 @@ import { Switch, Route } from 'react-router-dom'
 import HomePage from './pages/home/HomePage';
 import AboutPage from './pages/about/AboutPage';
 import Footer from './components/footer/Footer'
-import NewsPage from './pages/news/NewsPage'
+import NewsPage from './pages/news/NewsPage';
+import NewsItemPage from './pages/newsItemPage/NewsItemPage';
 import ContactsPage from './pages/contacts/ContactsPage';
 import LinksPage from './pages/links-page/LinksPage';
 import AsyncFormPage from './async-pages/form-page/AsynFormPage'
@@ -30,7 +31,8 @@ class App extends Component {
           <Route path={routes.CONTACTS} component={ContactsPage} />
           <Route path={routes.SERVICES} component={AsyncServicesPage} />
           <Route path={routes.Links} component={LinksPage} />
-          <Route path={routes.NEWS} component={NewsPage} />
+          <Route path={routes.NEWS_ITEM} component={NewsItemPage} />
+          <Route exact path={routes.NEWS} component={NewsPage} />
         </Switch>
         <Footer menu={menuHeaderList} links={usefulLinksList} contacts={contacts}></Footer>
       </div>

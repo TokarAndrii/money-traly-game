@@ -7,14 +7,20 @@ const mailOptions = require('./mailOptions');
 
 
 const app = express();
-app.use(bodyParser.json());
-app.use(cors())
+
+app.use(cors());
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: false }));
 
-const mailRouter = require('./mailRouter')
-app.use('/sendmail', mailRouter);
+// parse application/json
+app.use(bodyParser.json());
+
+const mailRouter = require('./routes/mailRouter');
+app.use('/api/v1/sendmail', mailRouter);
+
+const newsRouter = require('./routes/newsRouter');
+app.use('/api/v1/news', newsRouter);
 
 
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getEmailCredentialsFromFront, sendAnswerToFrontOnGet } = require('./mailController')
+const { getEmailCredentialsFromFront, sendAnswerToFrontOnGet } = require('../controllers/mailController')
 
 router.post('/', getEmailCredentialsFromFront);
 
