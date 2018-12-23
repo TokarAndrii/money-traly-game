@@ -6,7 +6,7 @@ const Header = ({ headerTitle, headerList, logoImgUrl }) => (
     <header className={styles.Appheader}>
         <div className={styles.logoHolder}>
             <a href='/'><img className={styles.logoImage} src={logoImgUrl} alt="header-logo-img"></img></a>
-            <span className={styles.title}>{headerTitle}</span>
+            <span className={styles.title}><b>{headerTitle}</b></span>
         </div>
         <ul className={styles.headerList}>
             {headerList.map(headerListItem => (

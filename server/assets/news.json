@@ -45,6 +45,102 @@
         "date": "22/12/2018",
         "author": "Andrii Tokar",
         "text": "Praesent vestibulum dapibus nibh. Nunc nec neque.",
-        "imgUrl": "https://via.placeholder.com/350x800/"
+        "imgUrl": "https://via.placeholder.com/350x200/"
+    },
+    {
+        "id": "c16e326d-ec30-41ff-947c-baa187fcc3ef",
+        "title": "consectetur adipiscing",
+        "date": "10/10/2018",
+        "author": "Nulla ac ligula",
+        "text": "Quisque rutrum. Praesent vestibulum dapibus nibh. Fusce neque. Vivamus euismod mauris. Proin faucibus arcu quis ante.",
+        "imgUrl": "https://via.placeholder.com/350x400/"
+    },
+    {
+        "id": "9e8f0da8-1300-4cad-be6c-3f78a568c865",
+        "title": "Fusce neque",
+        "date": "01/09/2018",
+        "author": "Donec porta",
+        "text": "Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nulla porta dolor. Suspendisse eu ligula. Fusce convallis metus id felis luctus adipiscing. Phasellus tempus.       Quisque rutrum. Cras dapibus. Praesent ut ligula non mi varius sagittis. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Maecenas nec odio et ante tincidunt tempus.",
+        "imgUrl": "https://via.placeholder.com/350x600/"
+    },
+    {
+        "id": "5ba5bc42-15d4-4bd4-9ae4-739dd348eccf",
+        "title": "cursus lacinia",
+        "date": "12/11/2018",
+        "author": "molestie non",
+        "text": "In turpis. Sed libero. Curabitur blandit mollis lacus. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Nullam cursus lacinia erat.",
+        "imgUrl": "https://via.placeholder.com/350x500/"
+    },
+    {
+        "id": "d4f81bfb-b3e5-489a-8b2c-00a89da53769",
+        "title": "test news",
+        "date": "22/12/2018",
+        "author": "imperdiet a",
+        "text": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus tempus. Nam adipiscing. Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x600/"
+    },
+    {
+        "id": "40472da2-cb2e-4553-be5e-19c662e11726",
+        "title": "news 1",
+        "date": "22/12/2018",
+        "author": "Andrii Tokar",
+        "text": "Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x100/"
+    },
+    {
+        "id": "e7d7ba9b-1931-4ecd-9999-d297dad94059",
+        "title": "news 2",
+        "date": "22/12/2018",
+        "author": "Andrii Tokar",
+        "text": "Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x200/"
+    },
+    {
+        "id": "c16e326d-ec30-41ff-947c-baa187fcc3ef",
+        "title": "consectetur adipiscing",
+        "date": "10/10/2018",
+        "author": "Nulla ac ligula",
+        "text": "Quisque rutrum. Praesent vestibulum dapibus nibh. Fusce neque. Vivamus euismod mauris. Proin faucibus arcu quis ante.",
+        "imgUrl": "https://via.placeholder.com/350x400/"
+    },
+    {
+        "id": "9e8f0da8-1300-4cad-be6c-3f78a568c865",
+        "title": "Fusce neque",
+        "date": "01/09/2018",
+        "author": "Donec porta",
+        "text": "Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nulla porta dolor. Suspendisse eu ligula. Fusce convallis metus id felis luctus adipiscing. Phasellus tempus.       Quisque rutrum. Cras dapibus. Praesent ut ligula non mi varius sagittis. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Maecenas nec odio et ante tincidunt tempus.",
+        "imgUrl": "https://via.placeholder.com/350x600/"
+    },
+    {
+        "id": "5ba5bc42-15d4-4bd4-9ae4-739dd348eccf",
+        "title": "cursus lacinia",
+        "date": "12/11/2018",
+        "author": "molestie non",
+        "text": "In turpis. Sed libero. Curabitur blandit mollis lacus. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Nullam cursus lacinia erat.",
+        "imgUrl": "https://via.placeholder.com/350x500/"
+    },
+    {
+        "id": "d4f81bfb-b3e5-489a-8b2c-00a89da53769",
+        "title": "test news",
+        "date": "22/12/2018",
+        "author": "imperdiet a",
+        "text": "In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Phasellus tempus. Nam adipiscing. Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x600/"
+    },
+    {
+        "id": "40472da2-cb2e-4553-be5e-19c662e11726",
+        "title": "news 1",
+        "date": "22/12/2018",
+        "author": "Andrii Tokar",
+        "text": "Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x100/"
+    },
+    {
+        "id": "e7d7ba9b-1931-4ecd-9999-d297dad94059",
+        "title": "news 2",
+        "date": "22/12/2018",
+        "author": "Andrii Tokar",
+        "text": "Praesent vestibulum dapibus nibh. Nunc nec neque.",
+        "imgUrl": "https://via.placeholder.com/350x200/"
     }
 ]

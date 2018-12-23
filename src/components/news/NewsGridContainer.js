@@ -8,7 +8,7 @@ import styles from './NewsGridContainer.module.css';
 
 
 const masonryOptions = {
-    transitionDuration: 0
+    transitionDuration: 1000
 };
 
 
@@ -39,7 +39,7 @@ export default class NewsGridContainer extends Component {
                     </div>)
                 }
 
-                <Masonry className={styles.list} elementType={'ul'} options={masonryOptions}>
+                <Masonry className={styles.list} elementType={'ul'} options={masonryOptions} updateOnEachImageLoad={true}>
 
 
                     {news.length > 0 && (news.map(item => (

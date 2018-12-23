@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className={styles.App}>
-        <Header headerTitle="SomeHeader" className={styles.Appheader} headerList={menuHeaderList}
+        <Header headerTitle="MindWinner" className={styles.Appheader} headerList={menuHeaderList}
           logoImgUrl="https://via.placeholder.com/100x100/" />
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
