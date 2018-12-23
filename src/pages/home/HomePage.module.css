@@ -4,14 +4,12 @@
     text-decoration: none;
     margin-bottom: 32px;
     font-weight: bold;
-    background-color:  white;
+    background-color: rgba(255, 250, 200, .8);
     color: #282c34;
 }
 
 .sendEmailLink:hover{
-    background-color: #282c34;
-    color: white;
-    text-decoration: underline;
+    background-color:rgb(162,114,80);
 }
 
 .main{

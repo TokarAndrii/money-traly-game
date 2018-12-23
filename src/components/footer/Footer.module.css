@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     height: 20vh;
-    background-color: rgba(255, 250, 200, .4);
+    background-color: rgb(255,191,127);
     color: black;
     width: 98vw;
     display: flex;
@@ -37,7 +37,8 @@
   }
   
   .footerIcon:hover{
-    background-color: lightgray;
+    background-color: rgb(162,114,80);
+    color: #282c34;  
   }
   
   .socialLinksHolderTitle{
@@ -90,19 +91,19 @@
   }
   
   .linkTextFooter{
-    color: white;
+    color: #282c34;  ;
     text-decoration: none;
     display: block;
     margin-top: 1px;
   }
   
   .linkTextFooter:hover{
-    color: #282c34;
-    background-color: #fff;
+    background-color: rgb(162,114,80);
+    color: #282c34;  
   }
   
   .footerContactsInfo{
-    color: white;
+    color: #282c34;  
     margin-top: 8px;
   }
 

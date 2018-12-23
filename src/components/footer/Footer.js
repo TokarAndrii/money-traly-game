@@ -33,7 +33,7 @@ const Footer = ({ menu, links, contacts }) => (
                 }
             </div>
         </footer>
-        <span className={styles.footerCopyRight}>	&#9400;2018 Name Company</span>
+        <span className={styles.footerCopyRight}>	&#9400;2018 MindWinner</span>
     </>
 )
 

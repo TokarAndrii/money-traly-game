@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className={styles.App}>
         <Header headerTitle="MindWinner" className={styles.Appheader} headerList={menuHeaderList}
-          logoImgUrl="https://via.placeholder.com/100x100/" />
+          logoImgUrl="logo.jpg" />
         <Switch>
           <Route exact path="/" component={HomePage}></Route>
           <Route path={routes.FORM} component={AsyncFormPage} />
